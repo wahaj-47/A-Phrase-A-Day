@@ -1,0 +1,33 @@
+{
+	"expo": {
+		"name": "A Phrase A Day",
+		"description": "Learn French language, one phrase a day.",
+		"slug": "a-phrase-a-day",
+		"privacy": "public",
+		"sdkVersion": "35.0.0",
+		"platforms": ["ios", "android"],
+		"version": "1.0.0",
+		"orientation": "portrait",
+		"primaryColor": "#0075b2",
+		"icon": "./assets/icon.png",
+		"splash": {
+			"image": "./assets/splash.png",
+			"resizeMode": "contain",
+			"backgroundColor": "#0075b2"
+		},
+		"updates": {
+			"fallbackToCacheTimeout": 0
+		},
+		"assetBundlePatterns": ["**/*"],
+		"ios": {
+			"bundleIdentifier": "com.apad.aphraseaday",
+			"buildNumber": "1",
+			"supportsTablet": false
+		},
+		"android": {
+			"package": "com.apad.aphraseaday",
+			"versionCode": 1,
+			"permissions": []
+		}
+	}
+}
